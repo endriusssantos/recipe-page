@@ -1,0 +1,27 @@
+@media (max-width: 425px) {
+    .container .card {
+        width: 90%;
+        height: auto;
+    }
+
+    .container .card .time {
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .container .card .nutrition .calories,
+    .container .card .nutrition .carbs,
+    .container .card .nutrition .protein,
+    .container .card .nutrition .fat {
+        justify-content: space-between;
+        padding: 0 0 5px 30px;
+        width: auto;
+    }
+
+    .container .card .nutrition .calories .value,
+    .container .card .nutrition .carbs .value,
+    .container .card .nutrition .protein .value,
+    .container .card .nutrition .fat .value {
+        padding: 0 75px 0 0;
+    }
+}
